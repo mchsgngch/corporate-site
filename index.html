@@ -34,7 +34,7 @@
           </div>
           <div class="six columns navi">
             <div class="sp_navi">
-              <h1><a href="index.html"><img id="sp_navi_btn" class="u-max-full-width" src="images/top/sp_navi.png" alt="sp_navi" srcset="images/top/sp_navi@2x.png 2x" /></a></h1>
+              <img id="sp_navi_btn" class="u-max-full-width" src="images/top/sp_navi.png" alt="sp_navi" srcset="images/top/sp_navi@2x.png 2x" />
               <ul class="sp_navi_li">
                 <li><a href="index.html">TOPページ</a></li>
                 <li><a href="news.html">ニュースリリース</a></li>
@@ -108,7 +108,7 @@
     <!-- #news_area -->
     
     <div id="googlemap_area">
-      <script src="//maps.google.com/maps/api/js?sensor=true"></script>
+      <script src="//maps.google.com/maps/api/js?key=AIzaSyA9-umiBlXukzBx93BItg1otCLzIT4-vsY"></script>
       <script type="text/javascript">
       function googleMap() {
         var latlng = new google.maps.LatLng(35.6694293,139.7189323);/* 座標 */
@@ -191,11 +191,9 @@
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
         $(function(){
-          $(document).ready(function(){
             $("#sp_navi_btn").click(function () {
               $(this).next().slideToggle();
             });
-          });
         });
     </script>
   </body>
